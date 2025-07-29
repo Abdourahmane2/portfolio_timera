@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdourahmane Timera</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h2>Abdourahmane Timera</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                 <li><a href="#experience" class="nav-link">Expérience</a></li>
+                 <li><a href="#projets" class="nav-link">Projets</a></li>
+                 <li><a href="#competences" class="nav-link">Compétences</a></li>
+                <li><a href="#formation" class="nav-link">Formation</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <div class="hero-text"> 
+                <h4 class="hero-title">
+                    Étudiant en <span class="highlight"> science des données</span>
+                    <br>à la recherche d'un stage de 6 mois
+                </h4>
+                <p class="hero-description">
+                    Passionné par l'analyse de données et l'intelligence artificielle, 
+                    je suis actuellement en deuxieme année de Master en Statistiques et Informatique pour la Science des Données 
+                    à l'Université Lumière Lyon 2.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i>
+                        Me Contacter
+                    </a>
+                    <a href="#projets" class="btn btn-secondary">
+                        <i class="fas fa-folder-open"></i>
+                        Voir mes Projets
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-card">
+                    <div class="card-header">
+                        <div class="card-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="code-line">
+                            <span class="keyword">import</span> <span class="module">pandas</span> <span class="keyword">as</span> <span class="alias">pd</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="keyword">import</span> <span class="module">numpy</span> <span class="keyword">as</span> <span class="alias">np</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="keyword">from</span> <span class="module">sklearn</span> <span class="keyword">import</span> <span class="function">model_selection</span>
+                        </div>
+                        <div class="code-line"></div>
+                        <div class="code-line">
+                            <span class="comment"># Analyse de données</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="variable">data</span> = <span class="module">pd</span>.<span class="function">read_csv</span>(<span class="string">'dataset.csv'</span>)
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+       <!-- Experience Section -->
+     <section id="experience" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Expérience</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="card-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>stage en data science</h3>
+                    <p class="card-subtitle">Universite Cheikh Anta Diop • 3mois</p>
+                    <p class="card-description">
+                        Lors de mon stage à l'UCAD j'ai débuté par la création d'un dashboard Power BI pour visualiser les données des etudiants  Cette première étape m'a permis d'explorer et de comprendre les dynamiques internes à l'université. J'ai ensuite mené une analyse exploratoire approfondie, avant de concevoir un modèle de recommandation suggérant les départements où un étudiant a le plus de chances de réussir. Le tout a été déployé dans une application interactive via Streamlit.
+                    </p>
+                    <div class="card-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Scikit-learn</span>
+                        <span class="tag">Pandas</span>
+                        <span class="tag">Power bi</span>
+                        <span class="tag">streamlite</span>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="card-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>satge developpeur back end</h3>
+                    <p class="card-subtitle">les 101 click saint etienne • 2mois</p>
+                    <p class="card-description">
+                       developpement d'une application web dédiée à la gestion des maisons de retraite. Jai travaillé sur plusieurs modules clés, notamment les  les dossiers médicaux, la planification et la sécurité les rendez vous ... Le développement a été réalisé avec PHP, SQL et JavaScript.
+                    </p>
+                    <div class="card-tags">
+                        <span class="tag">php</span>
+                        <span class="tag">javascrip</span>
+                        <span class="tag">SQL</span>
+                         <span class="tag">base de données</span>
+                        
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section> 
+
+    <!-- Projets Section -->
+    <section id="projets" class="section">
+        <div class="container">
+            <h2 class="section-title">Initiatives personnelles (Projets)</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Syteme de recommandation</h3>
+                        <p class="project-description">
+                            Ce projet est un système de recommandation de films basé sur un modèle de Neural Collaborative Filtering (NCF). Il utilise des techniques de machine learning pour suggérer des films aux utilisateurs en fonction de leurs préférences. 
+                            L'application est déployée avec Streamlit,offrant une interface interactive pour visualiser les recommandations.. 
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">Neural Collaborative Filtering</span>
+                            <span class="tech-tag">streamlite</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Abdourahmane2/Systeme_de_Recommandation/" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Analyse Sentiment Twitter</h3>
+                        <p class="project-description">
+                           Ce projet a pour objectif de scraper des données Twitter et d'analyser les sentiments des utilisateurs pour déterminer s'ils sont plutôt contents ou malheureux.Il utilise des techniques de web scraping, de traitement du langage naturel (NLP) et de machine learning pour extraire, nettoyer et classifier les tweets en positifs ou négatifs.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Transformers</span>
+                            <span class="tech-tag">Scraaping</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Abdourahmane2/analyse_de-_sentiment/" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Analyse Exploratoire des Données de Ventes de Supermarché</h3>
+                        <p class="project-description">
+                           Ce projet est un système de prédiction des ventes d'un supermarché basé sur des techniques de modélisation statistique et machine learning. Il permet d'analyser les tendances de vente et de prédire les chiffres futurs grâce à des modèles comme Holt-Winters 
+L'interface utilisateur est développée avec Streamlit, permettant aux utilisateurs d'importer leurs propres fichiers CSV et d'obtenir des prévisions détaillées, accompagnées de visualisations interactives.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">matplotlib/seaborn</span>
+                            <span class="tech-tag">Holt-Winters</span> 
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Abdourahmane2/Analyse-et-Prediction-des-Ventes-pour-un-Supermarche" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                           
+                        </div>
+                    </div>
+                </div>
+
+                      
+            </div>
+        </div>
+    </section>
+ <!-- Competences Section -->
+    <section id="competences" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Compétences & Cours Actuels</h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Langages de Programmation</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">R</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Outils & Technologies</h3>
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <i class="fab fa-python"></i>
+                            <span>Pandas, NumPy, Scikit-learn</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Matplotlib, Seaborn</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL, PostgreSQL,</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-brain"></i>
+                            <span>TensorFlow,</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git, GitHub,</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-cloud"></i>
+                            <span>AWS, Docker, Streamlit</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="current-courses">
+                    <h3>Cours en Cours (Semestre Actuel)</h3>
+                    <div class="courses-grid">
+                        <div class="course-card">
+                            <h4>Bases de données NoSQL </h4>
+                        </div>
+                        <div class="course-card">
+                            <h4>ouille de données massives</h4>
+                             
+                        </div>
+                        <div class="course-card">
+                            <h4>NLP - Traitement automatique du langage naturel</h4>
+                        </div>
+                        <div class="course-card">
+                            <h4>Entrepôt de donnée avancées</h4>
+                             
+                        </div>
+                        <div class="course-card">
+                            <h4>Logiciels - Data visualisation, BI, Cloud, MLOps </h4>
+                           
+                        </div>
+                        <div class="course-card">
+                            <h4>Machine learning sous Python</h4>
+                        </div> 
+                        <div class="course-card">
+                            <h4>Programmation statistique sous R</h4>
+                        </div>
+                        <div class="course-card">
+                            <h4>Analyse de variance et plans d'expériences</h4>
+                        </div>
+                        <div class="course-card">
+                            <h4>Biostatistique, données catégorielles </h4>
+                        </div>
+                        <div class="course-card">
+                            <h4>Séries temporelles et données séquentielles </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formation Section -->
+    <section id="formation" class="section">
+        <div class="container">
+            <h2 class="section-title">Formation</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Master Statistiques et Informatique pour la Science des Données</h3>
+                        <p class="timeline-date">2023 - 2025</p>
+                        <p class="timeline-location">Université Lumière Lyon 2</p>
+                        <ul class="timeline-details">
+                            <li>Spécialisation en analyse de données et machine learning</li>
+                            <li>Apprentissage approfondi des méthodes statistiques avancées</li>
+                            <li>Maîtrise des outils de programmation pour la data science</li>
+                            <li>Projets pratiques sur des données réelles</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Licence en Mathématiques/Informatique</h3>
+                        <p class="timeline-date">2020 - 2023</p>
+                        <p class="timeline-location">Université Lumière Lyon 2</p>
+                        <ul class="timeline-details">
+                            <li>Bases solides en mathématiques et statistiques</li>
+                            <li>Programmation en Python, R et SQL</li>
+                            <li>Algorithmique et structures de données</li>
+                            <li>Projet de fin d'études en analyse prédictive</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Me Contacter</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Recherche de Stage</h3>
+                    <p class="contact-description">
+                        Je suis activement à la recherche d'un stage en data science pour une durée de 4 à 6 mois. 
+                        N'hésitez pas à me contacter pour discuter d'opportunités !
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>abdourahmane.timera@univ-lyon2.fr</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+33 0641199469</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Lyon, France</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <a href="https://www.linkedin.com/in/abdourahmane-timera-a49b05267/" target="_blank">LinkedIn Profile</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/Abdourahmane2" target="_blank">GitHub Profile</a>
+                        </div>
+                    </div>
+                </div>
+
+               
+            </div>
+        </div>
+    </section>
+
+  
+</body>
+</html>
